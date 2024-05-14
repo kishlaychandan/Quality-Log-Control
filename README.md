@@ -76,7 +76,7 @@ To ingest logs, send a POST request to `http://localhost:3000/logs/ingest` with 
 
 Search logs by sending a GET request to http://localhost:3000/logs/search with query parameters for filtering.You can use postman or any other, Here's an example:
 http://localhost:3000/logs/search?level=level
-http://localhost:9091/logs/search?searchTerm=example&startDate=2023-11-17
+http://localhost:3000/logs/search?searchTerm=example&startDate=2023-11-17
 
 I have also design frontend Where You can ingest log and search by using Seacrhing options and terms, you can also add more search field in option.
 
